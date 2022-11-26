@@ -1,0 +1,29 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Advice Example</title>
+	</head>
+	<body>
+	<p><abbr title="HyperText Markup Language">HTML</abbr>5 in easy steps</p>
+	<p><cite title="Inventer of the HyperText Markup Language">Sir Tim Berners-Lee</cite></p>
+	<p><dfn title="The popular language of the WorldWideWeb. Commonly abbreviated to 'HTML'">HyperText Markup Language</dfn></p>
+	<p><kbd title="Press the Y key on your keyboard to execute a script. This requires JavaScript to be enabled in your browswer">Hit Y to Continue.</kbd></p>
+	<script>
+	
+	
+	
+	
+	function showkey(e){
+	var obj=(navigator.appName==="Microsoft Internet Explorer")?event:e;
+	if(obj.keyCode===89||obj.keyCode===121)
+	alert("Y pressed.Thank you.");
+	}
+	document.onkeydown=showkey;	
+	
+	
+	
+				
+	</script>
+	</body>
+	</html>
